@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  spacer
+//  divider
 //
 //  Created by gideon tobing on 17/12/2025.
 //
@@ -10,10 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-           Spacer()
-            Text("one third of the way")
+           Divider()
+            Text("First Label")
+            Divider()
             Spacer()
-            Spacer()
+            Divider()
+            Text("Second Label")
+            Divider()
         }
         .padding()
     }
@@ -22,4 +25,3 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
-
